@@ -5,7 +5,25 @@
         "ProjectId": "4fb687c9-8631-4b56-a04c-da0247206933",
         "ProjectName": "sandbox_roy",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "282568d5-6b39-48a1-a955-fc2f97e1d7ce",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "0dd40015-a9b0-4c35-b4ae-8291bdeb2b1c",
+                "DatabaseAliasName": "db1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7705, Culture=neutral, PublicKeyToken=null",
+                  "RemoteRepositoryURL": "https://github.com/roylauzon/july_13_db1.git",
+                  "BranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -20,7 +38,24 @@
       "UserData": [
         {
           "UserName": "roylauzon",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "0dd40015-a9b0-4c35-b4ae-8291bdeb2b1c",
+              "DatabaseAliasName": "db1",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": ".\\sqlexpress",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
+                "DatabaseName": "sand_db_1"
+              },
+              "RepositoryCredentials": {
+                "UserName": "roylauzon",
+                "Password": "Wo+U54PO156rBTycxNE7Djw+FH3MuzAZfOHDhyqSSYAvxueEr4yR4vcpzRKZkG13"
+              }
+            }
+          ]
         }
       ]
     }
