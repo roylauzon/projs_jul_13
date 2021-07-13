@@ -31,7 +31,14 @@
               {
                 "DatabaseId": "c217bb93-cc1f-4027-99d6-914dc84f520d",
                 "DatabaseAliasName": "db2",
-                "DatabaseConnectionDetails": null,
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": ".\\sqlexpress",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "123",
+                  "DatabaseName": "sand_db_2"
+                },
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7716, Culture=neutral, PublicKeyToken=null",
                   "RemoteRepositoryURL": "https://github.com/roylauzon/july_13_db2.git",
@@ -80,7 +87,7 @@
                 "Host": ".\\sqlexpress",
                 "AuthenticationType": 1,
                 "Username": "sa",
-                "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
+                "Password": "123",
                 "DatabaseName": "sand_db_2"
               },
               "RepositoryCredentials": {
@@ -89,6 +96,30 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "a5243469-639f-4d04-9478-70128360e8cd",
+        "ProjectName": "sand_2",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 50,
+          "NumberOfTagsInBuildOptions": 50,
+          "BuildDeploymentScriptOnPush": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\projs_july_2"
+      },
+      "UserData": [
+        {
+          "UserName": "roylauzon",
+          "DatabasesData": []
         }
       ]
     }
