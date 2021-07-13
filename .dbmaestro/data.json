@@ -14,10 +14,27 @@
               {
                 "DatabaseId": "0dd40015-a9b0-4c35-b4ae-8291bdeb2b1c",
                 "DatabaseAliasName": "db1",
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": ".\\sqlexpress",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "123",
+                  "DatabaseName": "sand_db_1"
+                },
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7716, Culture=neutral, PublicKeyToken=null",
+                  "RemoteRepositoryURL": "https://github.com/roylauzon/july_13_db1.git",
+                  "BranchName": "main"
+                }
+              },
+              {
+                "DatabaseId": "c217bb93-cc1f-4027-99d6-914dc84f520d",
+                "DatabaseAliasName": "db2",
                 "DatabaseConnectionDetails": null,
                 "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7705, Culture=neutral, PublicKeyToken=null",
-                  "RemoteRepositoryURL": "https://github.com/roylauzon/july_13_db1.git",
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git, Version=21.3.1.7716, Culture=neutral, PublicKeyToken=null",
+                  "RemoteRepositoryURL": "https://github.com/roylauzon/july_13_db2.git",
                   "BranchName": "main"
                 }
               }
@@ -47,8 +64,24 @@
                 "Host": ".\\sqlexpress",
                 "AuthenticationType": 1,
                 "Username": "sa",
-                "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
+                "Password": "123",
                 "DatabaseName": "sand_db_1"
+              },
+              "RepositoryCredentials": {
+                "UserName": "roylauzon",
+                "Password": "Wo+U54PO156rBTycxNE7Djw+FH3MuzAZfOHDhyqSSYAvxueEr4yR4vcpzRKZkG13"
+              }
+            },
+            {
+              "DatabaseId": "c217bb93-cc1f-4027-99d6-914dc84f520d",
+              "DatabaseAliasName": "db2",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": ".\\sqlexpress",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "3Gb0hbYzmDIwRNmEt2GLYw==",
+                "DatabaseName": "sand_db_2"
               },
               "RepositoryCredentials": {
                 "UserName": "roylauzon",
